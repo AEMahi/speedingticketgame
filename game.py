@@ -2,8 +2,6 @@
 
 import random
 
-#Aaron = False
-
 while True:
     Total_Speed = 0
     Mean_Speed = 0
@@ -53,9 +51,6 @@ while True:
                 print('your ticket is $',ticket)
                 Money  = Money - ticket
                 Total_tickets = Total_tickets + 1
-                if speed > 2000:
-                    print('hi Aaron, SLOW DOWN!!!!!!')
-                    #Aaron = True
             if speed <= 10 and speed > 7 and Fast_Warnings_Parking > 3:
                 print('I told you to slow down in the parking lots!')
                 print('This is Warnng #', Fast_Warnings_Parking)
@@ -94,9 +89,6 @@ while True:
                 print('your ticket is $',ticket)
                 Money  = Money - ticket
                 Total_tickets = Total_tickets + 1
-                if speed > 2000:
-                    print('hi Aaron, SLOW DOWN!!!!!!')
-                    #Aaron = True
             if speed <= 60 and speed > 50 and Fast_Warnings_Street > 3:
                 print('I warned you to slow down in the streets')
                 print('This is warning #',Fast_Warnings_Street,', I am sorry but I must ticket you')
@@ -133,9 +125,6 @@ while True:
                 print('your ticket is $',ticket)
                 Money  = Money - ticket
                 Total_tickets = Total_tickets + 1
-                if speed > 2000:
-                    print('hi Aaron, SLOW DOWN!!!!!!')
-                    #Aaron = True
             if speed <= 90 and speed > 80 and Fast_Warnings_Freeway > 3:
                 print('I warned you to slow down in the Freeway')
                 print('This is warning #', Fast_Warnings_Freeway)
@@ -174,9 +163,6 @@ while True:
                 print('your ticket is $',ticket)
                 Money  = Money - ticket
                 Total_tickets = Total_tickets + 1
-                if speed > 2000:
-                    print('hi Aaron, SLOW DOWN!!!!!!')
-                    #Aaron = True
             if speed <= 45 and speed > 30 and Fast_Warnings_School > 3:
                 print('I warned you to slow down in the school zones')
                 print('This is warning #', Fast_Warnings_School)
@@ -246,21 +232,18 @@ while True:
             Score = 0
         print('Your Score is ', Score)
         print('Credits:')
-        #if Aaron == True:
-            #print("This can't happen?")
         print('Speeding Tickets')
-        print('An A.E.M. Media Game by Aarush Mahimainathan')
-        print('Original Concept: Aarush Mahimainathan')
-        print('Lead Programer: Aarush Mahimainathan')
-        print('All Other Programers: Aarush Mahimainathan')
-        print('Version 1 Prerelease Testers: Aaron Dsa and Matteo Di Giovani')
-        print('Version 3 Prerelease Testers: Aaron Dsa') 
+        print('An A.E.M. Media Game by Me')
+        print('Original Concept: Me')
+        print('Lead Programer: Me')
+        print('All Other Programers: Me')
+        print('Version 1 Prerelease Testers: Friends')
+        print('Version 3 Prerelease Testers: Friend') 
         print('Written in Python through Visual Code Studio')
         print('Run in ZShell')
         print('A.E.M. Media')
         print('Are You Ready?')
         Play_Again = input('Play Again? (y/n) ')
-        #print(Play_Again)  
         if Play_Again == 'n' or Play_Again == 'N':
             print('Ok')
             quit()
